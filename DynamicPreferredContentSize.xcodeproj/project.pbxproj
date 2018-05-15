@@ -12,6 +12,7 @@
 		760AA25020AB1BF3004EEA0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760AA24E20AB1BF3004EEA0B /* Main.storyboard */; };
 		760AA25220AB1BF3004EEA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760AA25120AB1BF3004EEA0B /* Assets.xcassets */; };
 		760AA25520AB1BF3004EEA0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760AA25320AB1BF3004EEA0B /* LaunchScreen.storyboard */; };
+		760AA25D20AB1DE0004EEA0B /* PopoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760AA25C20AB1DE0004EEA0B /* PopoverTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		760AA25120AB1BF3004EEA0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		760AA25420AB1BF3004EEA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		760AA25620AB1BF3004EEA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		760AA25C20AB1DE0004EEA0B /* PopoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				760AA24A20AB1BF3004EEA0B /* AppDelegate.swift */,
 				760AA24C20AB1BF3004EEA0B /* ViewController.swift */,
+				760AA25C20AB1DE0004EEA0B /* PopoverTableViewController.swift */,
 				760AA24E20AB1BF3004EEA0B /* Main.storyboard */,
 				760AA25120AB1BF3004EEA0B /* Assets.xcassets */,
 				760AA25320AB1BF3004EEA0B /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				760AA24D20AB1BF3004EEA0B /* ViewController.swift in Sources */,
+				760AA25D20AB1DE0004EEA0B /* PopoverTableViewController.swift in Sources */,
 				760AA24B20AB1BF3004EEA0B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
